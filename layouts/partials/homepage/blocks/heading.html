@@ -1,0 +1,11 @@
+<section class="heading container">
+    <header class="major">
+        <h2>{{ .block.heading }}</h2>
+        {{- $html := .block.contents | markdownify }}
+        {{- if (findRE "<p(?: [^>]*)?>" $html) }}
+            {{ $html }}
+        {{- else -}}
+            <p>{{ $html }}</p>
+        {{- end }}
+    </header>
+</section>
