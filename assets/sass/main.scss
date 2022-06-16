@@ -134,7 +134,7 @@ $hompageBannerForegroundColor: #333;
         font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 1.3em;
         font-weight: 300;
-        line-height: 1.65em;
+        line-height: 1.3em;
     }
 
     a {
@@ -1016,7 +1016,7 @@ $hompageBannerForegroundColor: #333;
 
 /* Homepage Highlights block */
         .highlights {
-            margin-top: 2em;
+            margin-top: 1.6em;
 
             .grid {
                 display: grid;
@@ -1045,11 +1045,20 @@ $hompageBannerForegroundColor: #333;
                                 height: 100%;
                             }
                         }
+
+                        .title-container {
+                            h3 {
+                                margin-top: .3em;
+                                margin-bottom: .3em;
+                            }
+                        }
                     }
                     .content {
                         p {
                             margin: 0;
                         }
+                        font-size: 0.95em;
+                        line-height: 1.2em;
                     }
                 }
             }
@@ -1064,12 +1073,6 @@ $hompageBannerForegroundColor: #333;
 /* Wide */
 
     @include breakpoint('<=wide') {
-
-        /* Basic */
-
-            body, input, select, textarea {
-                line-height: 1.5em;
-            }
 
         /* Banner */
 
@@ -1094,7 +1097,7 @@ $hompageBannerForegroundColor: #333;
 
             body, input, select, textarea {
                 font-size: 1.3em;
-                line-height: 1.5em;
+                line-height: 1.3em;
             }
 
         /* Lists */
@@ -1159,7 +1162,7 @@ $hompageBannerForegroundColor: #333;
         /* Basic */
 
             body, input, select, textarea {
-                line-height: 1.5em;
+                line-height: 1.3em;
             }
 
 
@@ -1191,6 +1194,7 @@ $hompageBannerForegroundColor: #333;
             }
 
             body, input, select, textarea {
+                line-height: 1.2em;
                 font-size: 1.2em;
             }
 
@@ -1448,20 +1452,14 @@ $hompageBannerForegroundColor: #333;
 
         /* Basic */
 
-            body, input, select, textarea {
-                line-height: 1.35em;
-            }
-
             h2 {
                 font-size: 1.25em;
                 letter-spacing: 0;
-                line-height: 1.35em;
             }
 
             h3 {
                 font-size: 1em;
                 letter-spacing: 0;
-                line-height: 1.35em;
             }
 
             header {
