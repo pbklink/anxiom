@@ -7,10 +7,10 @@
             <span>Generated Date</span>
             <span>{{ now.Format "2006-01-02 03:04 MST" }}</span>
             <span>Generator</span>
-            <span>{{ .Params.Generator }}</span>
+            <span>{{ .Params.Generator }} ({{ .Site.Hugo.Version }})</span>
         </section>
 
-        <h5 id="attributionsHeader">Attributions</h5>
+        <h2 id="attributionsHeader">Attributions</h2>
 
         <section class="imprint-attributions-grid-container">
             <span class="imprint-grid-heading">Item</span>
