@@ -1,0 +1,23 @@
+{{ if .itemUrl }}
+    <a href="{{ .itemUrl }}">{{ .item }}</a>
+{{ else }}
+    <span>{{ .item }}</span>
+{{ end }}
+<span>{{ .type }}</span>
+<span>{{ .location }}</span>
+{{ if .creatorUrl }}
+    <a href="{{ .creatorUrl }}">{{ .creator }}</a>
+{{ else }}
+    <span>{{ .creator }}</span>
+{{ end }}
+{{ if .sourceUrl }}
+    <a href="{{ .sourceUrl }}">{{ .source }}</a>
+{{ else }}
+    <span>{{ .source }}</span>
+{{ end }}
+<span>{{ .adjustments }}</span>
+{{ if .licenceUrl }}
+    <a href="{{ .licenceUrl }}">{{ .licence }}</a>
+{{ else }}
+    <span>{{ .licence }}</span>
+{{ end }}

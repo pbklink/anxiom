@@ -1,0 +1,56 @@
+{
+    "attributions": [
+        {
+            "type": "Template",
+            "item": "Anxiom",
+            "itemUrl": "https://themes.gohugo.io/anxiom/",
+            "creator": "Paul Klink",
+            "creatorUrl": "https://paul.klink.id.au",
+            "location": "",
+            "source": "GitHub",
+            "sourceUrl": "https://github.com/pbklink/anxiom",
+            "adjustments": "",
+            "licence": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+            "licenceUrl": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        {
+            "type": "Template",
+            "item": "Arcana",
+            "itemUrl": "https://themes.gohugo.io/themes/hugo-arcana/",
+            "creator": "Half Duplex",
+            "creatorUrl": "https://github.com/half-duplex",
+            "location": "",
+            "source": "GitHub",
+            "sourceUrl": "https://github.com/half-duplex/hugo-arcana",
+            "adjustments": "Derived from",
+            "licence": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+            "licenceUrl": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        {
+            "type": "Template",
+            "item": "Arcana",
+            "itemUrl": "https://html5up.net/arcana",
+            "creator": "ajkln",
+            "creatorUrl": "https://aj.lkn.io/",
+            "location": "",
+            "source": "https://html5up.net",
+            "sourceUrl": "https://html5up.net/arcana/download",
+            "adjustments": "Derived from",
+            "licence": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+            "licenceUrl": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        {
+            "type": "Image",
+            "item": "Footprint",
+            "itemUrl": "https://www.flickr.com/photos/151607664@N07/35328023260/",
+            "creator": "bluebudgie",
+            "creatorUrl": "https://pixabay.com/users/bluebudgie-4333174/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2353510",
+            "location": "Imprint",
+            "adjustments": "Cropped",
+            "source": "Pixabay",
+            "sourceUrl": "https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2353510",
+            "licence": "Pixabay license",
+            "licenceUrl": "https://pixabay.com/service/license/"
+        }
+    ]
+}

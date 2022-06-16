@@ -2,5 +2,9 @@
 {{ .Page.Scratch.Set "sidebar_count" $sidebar_count }}
 
 {{ partial "sidebar/pre-main.html" . }}
-{{- block "main" . }}{{- end }}
+<main class="container">
+    <article class="content">
+        {{ .Content }}
+    </article>
+</main>
 {{ partial "sidebar/post-main.html" . }}

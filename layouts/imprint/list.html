@@ -21,29 +21,13 @@
             <span class="imprint-grid-heading">Adjustments</span>
             <span class="imprint-grid-heading">License</span>
 
-            {{ range .Site.Data.attributions.attributions }}
-                {{ if .itemUrl }}
-                    <a href="{{ .itemUrl }}">{{ .item }}</a>
-                {{ else }}
-                    <span>{{ .item }}</span>
-                {{ end }}
-                <span>{{ .type }}</span>
-                <span>{{ .location }}</span>
-                {{ if .creatorUrl }}
-                    <a href="{{ .creatorUrl }}">{{ .creator }}</a>
-                {{ else }}
-                    <span>{{ .creator }}</span>
-                {{ end }}
-                {{ if .sourceUrl }}
-                    <a href="{{ .sourceUrl }}">{{ .source }}</a>
-                {{ else }}
-                    <span>{{ .source }}</span>
-                {{ end }}
-                <span>{{ .adjustments }}</span>
-                {{ if .licenceUrl }}
-                    <a href="{{ .licenceUrl }}">{{ .licence }}</a>
-                {{ else }}
-                    <span>{{ .licence }}</span>
+            {{ range .Site.Data.theme_attributions.attributions }}
+                {{ partial "external-attribution.html" . }}
+            {{ end }}
+
+            {{ with .Site.Data.attributions }}
+                {{ range .attributions }}
+                    {{ partial "external-attribution.html" . }}
                 {{ end }}
             {{ end }}
         </section>
