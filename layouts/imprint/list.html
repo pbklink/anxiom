@@ -2,12 +2,14 @@
 
     <main class="container">
         <section class="imprint-main-grid-container">
-            <span>Copyright</span>
-            <span>{{ .Params.Copyright }}</span>
+            {{ with .Site.Params.Copyright }}
+                <span>Copyright</span>
+                <span>{{ . }}</span>
+            {{ end }}
             <span>Generated Date</span>
             <span>{{ now.Format "2006-01-02 03:04 MST" }}</span>
             <span>Generator</span>
-            <span>{{ .Params.Generator }} ({{ .Site.Hugo.Version }})</span>
+            <span>{{ "Hugo" }} ({{ .Site.Hugo.Version }})</span>
         </section>
 
         <h2 id="attributionsHeader">Attributions</h2>
