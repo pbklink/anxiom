@@ -160,6 +160,10 @@ $hompageBannerForegroundColor: #333;
         margin: 0 0 0.8em 0;
     }
 
+    p+ul, p+ol {
+        margin-top: -0.6em;
+    }
+
     sub {
         font-size: 0.8em;
         position: relative;
@@ -451,6 +455,10 @@ $hompageBannerForegroundColor: #333;
 
         li {
             padding-left: 0.25em;
+
+            p {
+                margin-bottom: 0.1em;
+            }
         }
     }
 
@@ -460,6 +468,9 @@ $hompageBannerForegroundColor: #333;
 
         li {
             padding-left: 0.5em;
+            p {
+                margin-bottom: 0.1em;
+            }    
         }
     }
 
