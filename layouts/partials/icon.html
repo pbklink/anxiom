@@ -18,7 +18,7 @@
 {{ end }}
 
 {{ define "partials/icon-not-font-awesome.html" }}
-    {{ $iconAsset := resources.Get (printf "icons/%s" .icon) }}
+    {{ $iconAsset := resources.Get (printf "images/icons/%s" .icon) }}
     {{ $iconUrl := $iconAsset.RelPermalink }}
     {{ partial
         "contained-linked-image.html"
