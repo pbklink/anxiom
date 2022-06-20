@@ -1624,5 +1624,24 @@ $hompageBannerForegroundColor: #333;
 // Pages
 @import 'pages/imprint/page-imprint';
 
+.light-bordered-table {
+    td {
+        border-collapse: collapse;
+        border: 1px solid #f0f0f0;
+        padding: .1em .5em;
+    }
+  
+    tr td:nth-child(2) {
+        font-size: smaller;
+    }
+  
+    tr:nth-child(odd) {
+        background-color: #f8f8f8;
+    }
+  
+    table {
+        margin-bottom: 1em;
+    }
+}
 
 @import 'custom.scss';
